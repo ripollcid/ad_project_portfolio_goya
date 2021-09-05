@@ -1,0 +1,316 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div{
+	position: absolute;
+}
+
+#ad-container{
+	width:300px;
+	height:250px;
+    background-color: #000000;
+	overflow: hidden;
+}
+
+/* Note: Assets are referenced using the following path: 'assets/your-file.png' */
+#bg{
+	width: 300px;
+	height: 195px;
+	left: 0px;
+	top: 0px;
+	background-image: url("assets/bg_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*opacity: 0;*/
+}
+
+#frameContainer{
+	width: 2px;
+	height: 195px;
+	left: -61px;
+	top: 0px;
+	overflow: hidden;
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+
+}
+
+#frameContainer #barTop{
+	width: 300px;
+	height: 6px;
+	right: 61px;
+	top: 57px;
+	background-image: url("assets/bar_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+}
+
+#frameContainer #barBottom{
+	width: 300px;
+	height: 6px;
+	right: 61px;
+	top: 153px;
+	background-image: url("assets/bar_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transform: rotate(180deg);
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+}
+
+#frameContainer #textArea{
+	width: 300px;
+	height: 91px;
+	left: 61px;
+	bottom: 42px;
+	background-image: url("assets/textArea_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+}
+
+#frameContainer #text1{
+	width: 175px;
+	height: 47px;
+	left: 163px;
+	top: 83px;
+	background-image: url("assets/text1_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#frameContainer #text2{
+	width: 204px;
+	height: 85px;
+	left: 74px;
+	top: 54px;
+	background-image: url("assets/text2_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity:0;
+}
+
+#graphicContainer1{
+	width: 300px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#graphicContainer1 #graphic{
+	width: 65px;
+	height: 138px;
+	left: 21px;
+	bottom: -138px;
+	background-image: url("assets/bottle1_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#graphicContainer2{
+	width: 300px;
+	height: 195px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#graphicContainer2 #graphic{
+	width: 111px;
+	height: 174px;
+	left: 1px;
+	bottom: -174px;
+	background-image: url("assets/bottle2_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#resolve{
+	width: 0px;
+	height: 195px;
+	right: -61px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#resolve #barTop{
+	width: 300px;
+	height: 6px;
+	left: 61px;
+	top: 37px;
+	background-image: url("assets/bar_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+
+}
+
+#resolve #barBottom{
+	width: 300px;
+	height: 6px;
+	left: 61px;
+	top: 103px;
+	background-image: url("assets/bar_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transform: rotate(180deg);
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+}
+
+#resolve #textArea{
+	width: 300px;
+	height: 61px;
+	left: 61px;
+	top: 42px;
+	background-image: url("assets/textArea_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: black;*/
+	/*opacity:0.5;*/
+}
+
+#resolve #text{
+	width: 235px;
+	height: 34px;
+	right: 66px;
+	top: 55px;
+	overflow: hidden;
+	background-image: url("assets/text3_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#award{
+	width: 135px;
+	height: 95px;
+	left: 164px;
+	top: 100px;
+	background-image: url("assets/award_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity:0;
+}
+
+#footer{
+	width: 300px;
+	height: 58px;
+	left: 0px;
+	bottom: 0px;
+	background-image: url("assets/footer_300x250.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#logo{
+	width: 90px;
+	height: 25px;
+	left: 16px;
+	bottom: 15px;
+	background-image: url("assets/logo.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#ballContainer{
+	width: 122px;
+	height: 122px;
+	left: -61px;
+	top: 37px;
+}
+
+#ballContainer #ball{
+	width: 122px;
+	height: 122px;
+	left: -61px;
+	top: 0px;
+	overflow: hidden;
+	background-image: url("assets/ball_spritesheet.png");
+	background-repeat: no-repeat;
+	background-size: 100% 2300%;
+}
+
+#ballContainer #shadow{
+	width: 144px;
+	height: 144px;
+	left: -71px;
+	top: 0px;
+	background-image: url("assets/ball_shadow.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity:0.6;
+}
+
+#cta{
+	width: 120px;
+	height: 37px;
+	right: 9px;
+	bottom: 9px;
+	background-image: url("assets/cta_300x250.svg");
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left top;
+}
+#cta:hover{
+	background-position: right top;
+}
+#border {
+	width: 298px;
+	height:248px;
+	top:0px;
+	left:0px;
+	opacity:1;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	pointer-events: none;
+}
